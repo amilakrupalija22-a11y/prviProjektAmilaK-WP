@@ -4,19 +4,24 @@
     <title>Kontakt</title>
 </head>
 <body BGCOLOR="lightgreen">
-    <h1 align="center">Kontaktirajte nas</h1>
+    <h1 align="center"><font color="darkgreen" size="6" face="Arial">Kontaktirajte nas</font></h1>
 
     <div>
+        <!-- Navigacija: unutarnji, lokalni i globalni linkovi -->
         <p>
-            <a href="index.html" title="Početna">Početna</a>
-            <a href="recepti.html" title="Recepti">Recepti</a>
-            <a href="slike.html" title="Galerija">Galerija</a>
-            <a href="https://www.allrecipes.com" target="_blank" title="Globalni link">Vanjski recepti</a>
+            <a href="index.html" title="Početna">Početna</a> |
+            <a href="recepti.html" title="Recepti">Recepti</a> |
+            <a href="slike.html" title="Galerija">Galerija</a> |
+            <a href="https://www.allrecipes.com" target="_blank" title="Vanjski recepti">Vanjski recepti</a>
         </p>
 
         <h2>Podaci za kontakt</h2>
-        <table border="3" bordercolor="blue" width="500" align="center" cellspacing="5" cellpadding="10" bgcolor="lightyellow">
-            <tr bgcolor="orange">
+        <!-- Tabela sa svim atributima -->
+        <table border="3" bordercolor="blue" width="600" align="center" cellspacing="5" cellpadding="15" bgcolor="lightyellow">
+            <tr bgcolor="orange" align="center">
+                <td colspan="2"><b>Kontakt Forma</b></td>
+            </tr>
+            <tr>
                 <td>Ime</td>
                 <td>Vaše ime</td>
             </tr>
@@ -26,7 +31,10 @@
             </tr>
             <tr>
                 <td>Poruka</td>
-                <td>Ovdje napišite poruku</td>
+                <td rowspan="2">Ovdje napišite poruku</td>
+            </tr>
+            <tr>
+                <td>Napomena</td>
             </tr>
         </table>
 
@@ -37,8 +45,24 @@
             <li>Food Designer: Lejla</li>
         </ul>
 
+        <h2>Galerija tima</h2>
+        <p>
+            <a href="slike/ana.jpg" title="Ana" target="_blank">
+                <img src="slike/ana_thumb.jpg" alt="Ana" border="5" width="150" height="150" align="left">
+            </a>
+            <a href="slike/emir.jpg" title="Emir" target="_blank">
+                <img src="slike/emir_thumb.jpg" alt="Emir" border="5" width="150" height="150" align="left">
+            </a>
+            <a href="slike/lejla.jpg" title="Lejla" target="_blank">
+                <img src="slike/lejla_thumb.jpg" alt="Lejla" border="5" width="150" height="150" align="left">
+            </a>
+        </p>
+
         <hr size="4" width="80%" align="center">
+
+        <p align="center">
+            <font color="brown" size="4" face="Verdana"><b>Hvala što ste nas kontaktirali!</b></font>
+        </p>
     </div>
 </body>
 </html>
-
